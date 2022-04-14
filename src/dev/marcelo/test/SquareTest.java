@@ -21,6 +21,8 @@ class SquareTest {
     @Test
     void givenCalculateArea_whenMultiplySides_thenSucceed(){
         //Square square = new Square(8d, 8d);
+        //square.setSideA(5d);
+        //square.setSideB(5d);
         double actual = square.calculateArea();
         assertEquals(64d, actual);
     }
